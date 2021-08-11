@@ -1,0 +1,12 @@
+.content {
+  padding-top: 12px;
+  & h1 {
+    font-family: $fontMedium;
+    font-size: 2.4rem;
+  }
+  &__sub-heading {
+    font-size: 1.2rem;
+    color: $colorRed;
+    margin-bottom: 12px;
+  }
+}
