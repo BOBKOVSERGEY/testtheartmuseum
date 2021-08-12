@@ -1,0 +1,72 @@
+.ticket {
+  &__date {
+    font-family: $fontBold;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  &-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px 0 15px;
+    border-top: 2px solid #FF473A;
+    font-size: 1.8rem;
+  }
+  &__btn {
+    text-align: center;
+    margin-top: 30px;
+  }
+  &-offer {
+    margin: 40px 0;
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 22px;
+      min-height: 50px;
+      padding: 0 15px;
+      &-sub-heading {
+        font-size: 1.3rem;
+        color: $colorLightGray;
+        display: block;
+      }
+    }
+    &__qty {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+    &__qty-minus,
+    &__qty-plus
+    {
+      font-family: $fontBold;
+      font-size: 1.5rem;
+      line-height: 1;
+      cursor: pointer;
+      width: 18px;
+      height: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $colorLightGray;
+      border: 1px solid $colorLightGray;
+    }
+
+    &__qty-input {
+      text-align: center;
+      width:30px;
+      border: none;
+      background: white;
+      padding: 5px;
+      font-size: 1.8rem;
+      color: $colorLightGray;
+      &.active {
+        color: black;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

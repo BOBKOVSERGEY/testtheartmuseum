@@ -10,12 +10,14 @@
 /***components***/
 @import "components/grids";
 @import "components/burger";
-@import "components/nav-ticket";
+@import "components/tabs";
+@import "components/button";
 
 
 /*blocks*/
 @import "blocks/header";
 @import "blocks/content";
+@import "blocks/tickets";
 
 @import "blocks/footer";
 
